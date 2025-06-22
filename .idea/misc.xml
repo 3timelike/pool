@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/threadlocal-pool/pom.xml" />
         <option value="$PROJECT_DIR$/buffer-pool/pom.xml" />
         <option value="$PROJECT_DIR$/DatabaseConnectionPool/pom.xml" />
+        <option value="$PROJECT_DIR$/RedisConnectionPool/pom.xml" />
+        <option value="$PROJECT_DIR$/ObjectPool/pom.xml" />
       </list>
     </option>
   </component>

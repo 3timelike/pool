@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="buffer-pool" />
         <module name="threadlocal-pool" />
         <module name="DatabaseConnectionPool" />
+        <module name="buffer-pool" />
+        <module name="RedisConnectionPool" />
       </profile>
     </annotationProcessing>
   </component>
