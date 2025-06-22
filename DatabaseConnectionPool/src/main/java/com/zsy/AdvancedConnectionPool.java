@@ -15,12 +15,12 @@ import java.util.concurrent.locks.*;
 
 public class AdvancedConnectionPool implements ConnectionPool {
     // 配置参数
-    private final String url;
-    private final String username;
-    private final String password;
-    private final int maxSize;
+    private final String url; //url地址
+    private final String username; //用户名
+    private final String password; //用户密码
+    private final int maxSize; //最大连接数量
     private final int minIdle;
-    private final long maxWaitMillis;
+    private final long maxWaitMillis; //最长等等时间
     private final long validationInterval;
     private final long leakDetectionThreshold;
 
